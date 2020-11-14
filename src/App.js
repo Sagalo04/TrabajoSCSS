@@ -1,8 +1,9 @@
+import CardProfit from './Components/card-profit/CardProfit'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola</h1>
+      <CardProfit profits={22.3}/>
     </div>
   );
 }

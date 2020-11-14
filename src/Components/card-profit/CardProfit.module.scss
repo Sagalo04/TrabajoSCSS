@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+.cardProfit{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1rem;
+    overflow: hidden;
+    img{
+        height: 15rem;
+        width: auto;
+        display: block;
+        z-index: -99;
+    }
+    .profitInfo{
+        position: absolute;
+        top: 0px;
+        margin-left: 1.5rem;
+        .oTitle{
+            font-weight: 600;
+            font-size: 2rem;
+            margin: 1.5rem 0 1rem 0;   
+        }
+    }
+    
+    .oDate{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        margin: 0 1.5rem 1.5rem 0;
+    }
+}

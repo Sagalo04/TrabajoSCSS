@@ -1,0 +1,25 @@
+$dot-size: 0.6rem;
+$income-color: #ff9900;
+$expenses-color: #000;
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    p{
+        margin: 0.5rem 0rem;
+        padding: 0;
+    }
+}
+
+.Point{
+    width: $dot-size;
+    height: $dot-size;
+    border-radius: 50%;
+}
+.incomePoint{
+    background-color:$income-color;
+}
+.expensesPoint{
+    background-color: $expenses-color;
+}
