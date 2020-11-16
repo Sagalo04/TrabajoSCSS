@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from './CardExpenses.module.scss'
 import BackCard from './BackCard/BackCard';
-import { APPLE } from '../../Constants/Icons';
+import clip from '../../Images/clip.svg'
 
 
 function CardExpenses({ bg,icon,label,price,date }) {
@@ -11,7 +11,7 @@ function CardExpenses({ bg,icon,label,price,date }) {
             <div className={Styles.info}>
                 <div className={Styles.top}>
                     <p className={Styles.price}>{`$${price}`}<label className={Styles.cents}>.00</label></p>
-                    <img src={APPLE} alt="alt"/>
+                    <img src={clip} alt="alt"/>
                 </div>
                 <p>{date}</p>
                 <div className={Styles.iconcont}>
