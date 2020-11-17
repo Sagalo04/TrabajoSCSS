@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.Title{
+    margin: 0;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.SubTitle{
+    font-size: 1rem;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.iconscontainer{
+    display: flex;
+    width: 4rem;
+    justify-content: space-between;
+}
+
+.iconscontainerA{
+    display: flex;
+}
+
+.icon{
+    width: 1.5rem;
+}

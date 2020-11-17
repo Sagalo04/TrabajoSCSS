@@ -1,16 +1,16 @@
-import CardExpenses from './Components/card-expenses/CardExpenses'
-import CardProfit from './Components/card-profit/CardProfit'
-import { APPLE,ATLASSIAN,MORE } from './Constants/Icons';
+import CardInvoices from './Components/card-invoices/CardInvoices';
+import Content from './Components/Content/Content';
+import TopHeader from './Components/TopHeader/TopHeader';
+import { ARROW, BARSCIRCLE } from './Constants/Icons';
 import image from './Images/mac.svg'
 
 function App() {
   return (
     <div className="App">
-      <CardProfit profits={22.3}/>
-      <CardExpenses bg={"#F0F4FF"} icon={ATLASSIAN} label={"Software"} price={20} date={"23 Sep, 2020"}/>
-      <CardExpenses bg={"#EFFCEF"} icon={MORE} label={"Management"} price={30} date={"26 Sep, 2020"}/>
-      <CardExpenses bg={"#E6F5FA"} icon={APPLE} label={"Support"} price={60} date={"28 Sep, 2020"}/>
-      <img src={image} alt="alt"/>
+      <Content />
+      <TopHeader icon={[BARSCIRCLE, ARROW]} title={"Invoices"} subtitle={"recently created"} />
+      <CardInvoices />
+      <img src={image} alt="alt" />
     </div>
   );
 }

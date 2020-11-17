@@ -1,0 +1,26 @@
+.container{
+    border-radius: 1.5rem;
+    background-color: #F9f9f9;
+    width: 9rem;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.title{
+    font-weight: 700;
+}
+
+.graytext{
+    color: #656767;
+}
+
+.information{
+    align-self: center;
+    padding-left: 2rem;
+    border-left: 1.5px solid #0A725A ;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
