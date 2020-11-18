@@ -3,24 +3,40 @@
     background-color: #F9f9f9;
     width: 9rem;
     padding: 1rem 2rem 1rem 2rem;
-
+margin: 1rem;
+}
+.text{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.title{
+.boldtext{
     font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .graytext{
     color: #656767;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .information{
+    margin-top:1rem;
     align-self: center;
-    padding-left: 2rem;
-    border-left: 1.5px solid #0A725A ;
+    padding-left: 1.5rem;
+    
+    margin-bottom: 2rem;
+
 }
 
 .cost{
     display: flex;
     justify-content: space-between;
+}
+
+hr{
+   border: 0; 
+   border-bottom:1px solid #E8E8EA;
 }
