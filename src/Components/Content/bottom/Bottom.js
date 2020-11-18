@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from "./bottom.module.scss"
-import TopHeader from "../../TopHeader/TopHeader"
+import TopHeader from "../TopHeader/TopHeader"
 import { ARROW, BARSCIRCLE } from '../../../Constants/Icons';
 import CardInvoices from './card-invoices/CardInvoices';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from "./mid.module.scss"
-import TopHeader from "../../TopHeader/TopHeader"
+import TopHeader from "../TopHeader/TopHeader"
 import CardProfit from "./card-profit/CardProfit"
 import CardExpenses from "./card-expenses/CardExpenses"
 import { APPLE, ATLASSIAN, MORE, ARROW, BARSCIRCLE } from '../../../Constants/Icons';
