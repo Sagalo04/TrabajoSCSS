@@ -1,0 +1,40 @@
+$LetterColor:white;
+.cardBody{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem;
+    img{
+        height: 15rem;
+        width: auto;
+        display: block;
+        z-index: -99;
+    }
+}
+
+.info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding-left: 0.4rem;
+    label{
+        margin :1rem;
+        margin-bottom: 0;
+        color: $LetterColor;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    p{
+        margin: 1rem;
+        color:$LetterColor;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 50%;
+        
+    }
+}
