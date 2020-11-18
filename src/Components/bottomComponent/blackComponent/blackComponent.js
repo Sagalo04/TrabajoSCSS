@@ -8,7 +8,7 @@ function BlackComponent({label}) {
         <div className={Styles.cardBody}>
            <img src={blackimg} alt="img background"/>
             <div className={Styles.info}>
-                   <label>. . .</label>
+                   <label>.&nbsp; .&nbsp; .</label>
                    <p>{label}</p>
             </div>
         </div>
