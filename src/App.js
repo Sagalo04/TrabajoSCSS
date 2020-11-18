@@ -1,5 +1,5 @@
 import Content from './Components/Content/Content';
-import InvoicesPrices from './Components/Content/invoices-prices/InvoicesPrices';
+import InvoicesPrices from './Components/Content/top/invoices-prices/InvoicesPrices';
 import image from './Images/mac.svg'
 
 function App() {

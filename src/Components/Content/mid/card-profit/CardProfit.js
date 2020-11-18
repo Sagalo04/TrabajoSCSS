@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './CardProfit.module.scss'
-import background from '../../../Images/profit.JPG'
+import background from '../../../../Images/profit.JPG'
 import ProfitStats from './profits-stats/ProfitStats'
 
 function CardProfit({ profits }) {

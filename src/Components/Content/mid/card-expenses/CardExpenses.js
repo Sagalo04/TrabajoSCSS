@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from './CardExpenses.module.scss'
 import BackCard from './BackCard/BackCard';
-import clip from '../../../Images/clip.svg'
+import clip from '../../../../Images/clip.svg'
 
 
 function CardExpenses({ bg,icon,label,price,date }) {
