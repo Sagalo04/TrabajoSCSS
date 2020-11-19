@@ -7,8 +7,8 @@ function Navbar(props) {
     return (
         <div className={Styles.navbar}>
             <div className={Styles.points}>
-                <label className={Styles.one} >.&nbsp;</label>
-                <label className={Styles.two} >.&nbsp;</label>
+                <label className={Styles.one} >.  </label>
+                <label className={Styles.two} >.  </label>
                 <label className={Styles.three} >.</label>
             </div>
 
