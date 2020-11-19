@@ -1,11 +1,13 @@
 import React from 'react';
 import Styles from './Navsection.module.scss'
 
-function Navsection({icon,color}) {
+function Navsection({ changeActive,icon, color }) {
     return (
-        <div style={{backgroundColor: color}} className={Styles.navsection}>
-            <img src={icon} alt="icon"/>
-        </div>
+
+            <div style={{ backgroundColor: color }} className={Styles.navsection} onClick={changeActive}>
+                <img src={icon} alt="icon" />
+            </div>
+
     );
 }
 
