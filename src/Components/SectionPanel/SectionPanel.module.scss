@@ -1,0 +1,12 @@
+.principal{
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+}
+
+.arrow{
+    display: flex;
+    align-self: center;
+    img{
+        width: 0.6rem;
+    }
+}

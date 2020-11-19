@@ -1,0 +1,12 @@
+.oSection{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    .oIcon{
+        width: 1.3rem;
+        margin-right: 2rem;
+    }
+    .oLabel{
+        font-size: 1.2rem;
+    }
+}
