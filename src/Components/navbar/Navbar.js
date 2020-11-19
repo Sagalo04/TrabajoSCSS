@@ -3,7 +3,7 @@ import Styles from './Navbar.module.scss'
 import Navsection from './navsection/Navsection';
 import { RECT, TRIANGLE, PLUS } from '../../Constants/Icons'
 
-export class Navbar extends React.Component {
+export default class Navbar extends React.Component {
 
     constructor(props) {
         super(props);
@@ -18,22 +18,22 @@ export class Navbar extends React.Component {
     }
 
     checkActive = (index) => {
-        let color = "";
-        let nocolor = "#000000";
+        let colorized = "#000000"
         if (this.state.activeIndex === index) {
-            if (index === 0) {
-                color = "#C1E9FF"
-            } else if (index === 1) {
-                color = "#D2FFD6"
-            } else if (index === 2) {
-                color = "#4B4B4B"
-            }
-            return (
-                color
+            if (this.state.activeIndex === 0) {
+                colorized = "#C1E9FF"
+            } else if (this.state.activeIndex === 1) {
+                colorized = "#D2FFD6"
+            } else if (this.state.activeIndex === 2) {
+                colorized = "#4B4B4B"
+            } return (
+                <div style={{backgroundColor : `${colorized}`}}className={Styles.active}>
+                </div>
             )
         } else {
             return (
-                nocolor
+                <div style={{backgroundColor : `${colorized}`}} className={Styles.active}>
+                </div>
             )
         }
     }
@@ -47,23 +47,18 @@ export class Navbar extends React.Component {
                     <label className={Styles.three} >.</label>
                 </div>
                 <div className={Styles.navsec}>
-                    <div style={{ backgroundColor:`${this.checkActive(0)}`}} className={Styles.active}>
-                    </div>
+                    {this.checkActive(0)}
                     <Navsection icon={TRIANGLE} changeActive={this.changeActive.bind(this, 0)} color={"#C1E9FF"} />
                 </div>
                 <div className={Styles.navsec}>
-                    <div style={{ backgroundColor:`${this.checkActive(1)}`}} className={Styles.active}>
-                    </div>
+                    {this.checkActive(1)}
                     <Navsection icon={RECT} changeActive={this.changeActive.bind(this, 1)} color={"#D2FFD6"} />
                 </div>
                 <div className={Styles.navsec}>
-                    <div style={{ backgroundColor:`${this.checkActive(2)}`}} className={Styles.active}>
-                    </div>
+                    {this.checkActive(2)}
                     <Navsection icon={PLUS} changeActive={this.changeActive.bind(this, 2)} color={"#4B4B4B"} />
                 </div>
             </div>
         );
     }
 }
-
-export default Navbar;

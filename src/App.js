@@ -2,7 +2,7 @@ import React from "react"
 import Content from './Components/Content/Content';
 
 
-import Navbar from './Components/navbar/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 import SideSection from './Components/SideSection/SideSection';
 import Styles from './App.module.scss'
 
