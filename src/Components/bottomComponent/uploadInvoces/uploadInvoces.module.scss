@@ -1,0 +1,23 @@
+.cardBody{
+    border-radius: 1.3rem;
+    background-color: #F9f9f9;
+    width: 9rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+}
+.info{
+    margin-top:1rem;
+    align-self: center;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px grey;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
