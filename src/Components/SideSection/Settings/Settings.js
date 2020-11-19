@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from './Settings.module.scss'
-import settingsImg from '../../Images/settings.svg'
-import arrow from '../../Images/arrow3.svg'
+import settingsImg from '../../../Images/settings.svg'
+import arrow from '../../../Images/arrow3.svg'
 
 export default function Settigns(props){
     return(
