@@ -16,7 +16,7 @@ function App() {
     <Navbar />
       <div >
         <Content />
-        <BlackComponent label={"Work Anywhere with the Invoicer Mobile Apps "} />
+
         
         <SectionPanel />
         <Settings/>
