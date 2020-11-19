@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './blackComponen.module.scss'
-import blackimg from '../../../Images/blackimg.svg'
+import blackimg from '../../../../Images/blackimg.svg'
 
 
 function BlackComponent({label}) {

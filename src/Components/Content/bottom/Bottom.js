@@ -3,7 +3,7 @@ import Styles from "./bottom.module.scss"
 import TopHeader from "../TopHeader/TopHeader"
 import { ARROW, BARSCIRCLE } from '../../../Constants/Icons';
 import CardInvoices from './card-invoices/CardInvoices';
-import InvoicesUpload from '../../../Components/bottomComponent/uploadInvoces/uploadInvoces'
+import InvoicesUpload from './uploadInvoces/uploadInvoces'
 
 function Bottom(props) {
     return (

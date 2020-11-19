@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './uploadInvoces.module.scss'
-import blackimg from '../../../Images/cloud.svg'
+import blackimg from '../../../../Images/cloud.svg'
 
 
 function UploadInvoices({label}) {
