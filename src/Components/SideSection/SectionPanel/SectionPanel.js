@@ -1,8 +1,8 @@
 import React from 'react'
 import SectionLink from './SectionLink/SectionLink'
-import {ROCKET, CLIENT, INVOICES, ESTIMATES, TEAM} from '../../Constants/Icons'
+import {ROCKET, CLIENT, INVOICES, ESTIMATES, TEAM} from '../../../Constants/Icons'
 import Styles from './SectionPanel.module.scss'
-import arrow from "../../Images/arrow2.svg"
+import arrow from "../../../Images/arrow2.svg"
 
 export default class SectionPanel extends React.Component{
 
