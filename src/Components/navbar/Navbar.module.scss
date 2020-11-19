@@ -5,18 +5,15 @@
     background-color: black;
     padding: 1rem;
     align-items: center;
-    label{
-        margin :0rem;
-        margin-bottom: 0;
-        color: white;
-        font-weight: bold;
-        font-size: 1.3rem;
-    }
-
     .points{
         margin-bottom: 2rem;
+        label{
+            margin :0rem;
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 3rem;
+        }
     }
-
     .one{
         color:#FBC974;
     }

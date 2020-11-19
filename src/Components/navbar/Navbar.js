@@ -8,8 +8,8 @@ function Navbar(props) {
         <div className={Styles.navbar}>
             <div className={Styles.points}>
                 <label className={Styles.one} >.&nbsp;</label>
-                <label className={Styles.two} > .&nbsp;</label>
-                <label className={Styles.three} > .</label>
+                <label className={Styles.two} >.&nbsp;</label>
+                <label className={Styles.three} >.</label>
             </div>
 
             <Navsection icon={TRIANGLE} color={"#C1E9FF"} />
