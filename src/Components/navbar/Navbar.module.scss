@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    padding: 1rem;
+    align-items: center;
+    .points{
+        margin-bottom: 2rem;
+        label{
+            margin :0rem;
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    }
+    .one{
+        color:#FBC974;
+    }
+    .two{
+        color:#D2FFD6;
+    }
+    .three{
+        color:#FFFFFF;
+    }
+}
