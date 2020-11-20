@@ -13,7 +13,6 @@ function Mid(props) {
                 <div className={Styles.Deck}>
                     <CardProfit profits={22.3} />
                 </div>
-
             </div>
             <div>
                 <TopHeader icon={[ARROW]} title={"Expenses"} subtitle={""} />
