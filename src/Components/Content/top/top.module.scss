@@ -19,6 +19,7 @@
     font-size: 1.2rem;
 }
 .progress{
-    margin-left: 7rem;
-    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
 }

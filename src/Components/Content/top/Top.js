@@ -16,12 +16,15 @@ function Top(props) {
                 </div>
             </div>
             <div className={Styles.progress}>
+                <div>
                 <p className={Styles.title}>Outstanding revenue</p>
                 <div className={Styles.Deck}>
                     <InvoicesPrices price={"21.3k"} label={"$12,095 overdue"} progress={true} />
                 </div>
+                </div>
+                <img src={SEARCH} alt="icon-search"/>
             </div>
-            <img src={SEARCH} alt="icon-search"/>
+           
         </div>
     );
 }
