@@ -1,9 +1,12 @@
 .Deck{
     display: flex;
+    height: 100%;
 }
 
 .mid{
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr ;
     width: 100%;
     justify-content: space-between;
 }
