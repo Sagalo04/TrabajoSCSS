@@ -15,7 +15,7 @@ function Top(props) {
                     <InvoicesPrices price={"4,500"} label={"In draft"} progress={false} />
                 </div>
             </div>
-            <div>
+            <div className={Styles.progress}>
                 <p className={Styles.title}>Outstanding revenue</p>
                 <div className={Styles.Deck}>
                     <InvoicesPrices price={"21.3k"} label={"$12,095 overdue"} progress={true} />
