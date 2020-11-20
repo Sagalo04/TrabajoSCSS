@@ -13,7 +13,6 @@ export default class Navbar extends React.Component {
     }
 
     changeActive = (index) => {
-        console.log(index)
         this.setState({ activeIndex: index })
     }
 
