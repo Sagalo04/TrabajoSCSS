@@ -4,14 +4,13 @@ $LetterColor:white;
 }
 .cardBody{
     position: relative;
-    width: fit-content;
-    height: fit-content;
+    height: 298.562px; //396.975x 
     border-radius: 1rem;
     overflow: hidden;
     margin: 1rem;
     img{
         //aca pasa algo
-        height: 17.5rem;
+        height: 100%;
         width: auto;
         display: block;
         z-index: -99;
@@ -36,7 +35,7 @@ $LetterColor:white;
     p{
         margin: 1rem;
         color:$LetterColor;
-        font-size: 1.4rem;
+        font-size: 1.535rem;
         font-weight: bold;
         width: 50%;
         
