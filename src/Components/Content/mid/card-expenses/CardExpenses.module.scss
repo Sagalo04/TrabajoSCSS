@@ -5,11 +5,12 @@
     border-radius: 1.2rem 1.2rem 0 0;
     overflow: hidden;
     margin: 1rem;
+    //padding: 1rem 0rem 0rem 1.5rem;
     p{
         margin: 0;
     }
     svg{
-        height: 100%;
+        height: 18.25rem;
         width: auto;
         display: block;
         z-index: -99;
@@ -19,9 +20,10 @@
         flex-direction: column;
         position: absolute;
         top: 0px;
-        margin: 1rem 0rem 0rem 1.5rem;
+         margin: 1.2rem 0rem 0rem 1.7rem;
         height: 100%;
         width: 100%;
+        justify-content: space-between;
         .top{
             display: flex;
             width: 75%;
@@ -30,11 +32,11 @@
         
             .price{
                 font-weight: 700;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 //margin: 1.5rem 0 1rem 0;
                 .cents{
                     font-weight: 700;
-                    font-size: 0.8rem;
+                    font-size: 0.9rem;
                     //margin: 1.5rem 0 1rem 0;   
                 }
             }
@@ -44,10 +46,9 @@
         }
 
         .iconcont{
-            margin-top: 4.5rem;
-            justify-self: flex-end;
+            margin-bottom: 2.7rem;
             img{
-                width: 40px;
+                width: 50px;
                 margin-bottom: 0.5rem;
             }
 
