@@ -6,7 +6,7 @@
 .mid{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: auto auto ;
     width: 100%;
     justify-content: space-between;
 }
