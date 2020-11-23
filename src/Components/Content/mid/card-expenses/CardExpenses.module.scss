@@ -2,14 +2,14 @@
     position: relative;
     width: fit-content;
     height: auto;
-    //border-radius: 1rem;
+    border-radius: 1.2rem 1.2rem 0 0;
     overflow: hidden;
     margin: 1rem;
     p{
         margin: 0;
     }
     svg{
-        height: 15rem;
+        height: 100%;
         width: auto;
         display: block;
         z-index: -99;
